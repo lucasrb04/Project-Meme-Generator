@@ -18,3 +18,10 @@ btnContainer.addEventListener('click', (event) => {
   const memeContainer = document.querySelector('#meme-image-container');
   memeContainer.className = event.target.className;
 });
+
+const imgContainer = document.querySelector('#img-container');
+
+imgContainer.addEventListener('click', (event) => {
+  const memeImg = document.querySelector('#meme-image');
+  memeImg.src = event.target.src;
+});
