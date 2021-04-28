@@ -15,3 +15,11 @@ div {
   border: 1px solid black;
   position: relative;
 }
+
+#meme-text {
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  margin-top: 250px;
+  margin-left: 100px;
+}

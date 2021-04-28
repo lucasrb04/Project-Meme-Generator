@@ -5,10 +5,10 @@ inputText.addEventListener('keyup', () => {
   memeText.innerHTML = inputText.value;
 });
 
-const loadFile = (event) => {
-  const output = document.getElementById('meme-image');
-  output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = () => {
-    URL.revokeObjectURL(output.src); // free memory
-  };
-};
+// const loadFile = (event) => {
+//   const output = document.getElementById('meme-image');
+//   output.src = URL.createObjectURL(event.target.files[0]);
+//   output.onload = () => {
+//     URL.revokeObjectURL(output.src); // free memory
+//   };
+// };

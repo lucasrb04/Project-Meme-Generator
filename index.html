@@ -9,10 +9,11 @@
   <title>Meme Generator</title>
 </head>
 <body>
-  <!-- <input type="file" 
-    onchange="document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0])"> -->
   <input type="text" name="text" id="text-input" >
-  <input type="file" id="meme-insert" onchange="loadFile(event)" accept="image/*">
+  <input type="file" id="meme-insert"
+    onchange="document.getElementById('meme-image').src = window.URL.createObjectURL(this.files[0])">
+  
+  <!-- <input type="file" id="meme-insert" onchange="loadFile(event)" accept="image/*"> -->
   <div id="meme-image-container">
     <img id="meme-image"src="" alt="">
     <span id="meme-text"></span>
