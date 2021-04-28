@@ -12,3 +12,9 @@ inputText.addEventListener('keyup', () => {
 //     URL.revokeObjectURL(output.src); // free memory
 //   };
 // };
+const btnContainer = document.querySelector('#btn-container');
+
+btnContainer.addEventListener('click', (event) => {
+  const memeContainer = document.querySelector('#meme-image-container');
+  memeContainer.className = event.target.className;
+});

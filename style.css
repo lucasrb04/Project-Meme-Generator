@@ -12,7 +12,6 @@ div {
   margin: 15px;
   width: 300px;
   height: 350px;
-  border: 1px solid black;
   position: relative;
 }
 
@@ -23,3 +22,37 @@ div {
   margin-top: 250px;
   margin-left: 100px;
 }
+
+.borderDefault {
+  border: 1px solid black;
+}
+
+.borderFire {
+  border: 3px dashed red;
+}
+
+.borderWater {
+  border: 5px double blue;
+}
+
+.borderEarth {
+  border: 6px groove green;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  color: white;
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+button {
+  margin: 10px;
+}
+
